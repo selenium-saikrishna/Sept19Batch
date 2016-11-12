@@ -1,0 +1,11 @@
+<suite name="NewtOurs End to end Testing">
+  <test name="On Firefox">
+    <classes>
+		<class name="day26.testsuite.Login"/>
+      <class name="day26.testsuite.FindAFlight"/>
+      <class name="day26.testsuite.SelectAFlight"/>
+      <class name="day26.testsuite.BookAFlight"/>
+      <class name="day26.testsuite.FlightConfirmation"/>
+    </classes>
+  </test> 
+</suite> 

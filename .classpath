@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/ATUTestRecorder_2.1.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/poi-3.14-20160307.jar">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/Users/Sai/Downloads/poi-bin-3.14/poi-3.14/docs/apidocs"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/poi-examples-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/poi-excelant-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/poi-ooxml-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/poi-ooxml-schemas-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/poi-scratchpad-3.14-20160307.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/selenium-server-standalone-2.53.0.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/cucumber-core-1.2.4.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/cucumber-java-1.2.4.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/cucumber-junit-1.2.4.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/cucumber-jvm-deps-1.0.5.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/cucumber-reporting-0.3.1.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/gherkin-2.12.2.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/mockito-all-1.10.19.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/mysql-connector-java-5.1.26-bin.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

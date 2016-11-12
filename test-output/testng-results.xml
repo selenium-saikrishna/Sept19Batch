@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="34441" started-at="2016-11-11T04:16:02Z" finished-at="2016-11-11T04:16:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="34441" started-at="2016-11-11T04:16:02Z" finished-at="2016-11-11T04:16:36Z">
+      <class name="day35.DB_DataDriventesting">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:day35.DB_DataDriventesting@4a2a4591]" name="setUp" is-config="true" duration-ms="17911" started-at="2016-11-10T20:16:02Z" finished-at="2016-11-10T20:16:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="linkTest()[pri:0, instance:day35.DB_DataDriventesting@4a2a4591]" name="linkTest" duration-ms="16425" started-at="2016-11-10T20:16:20Z" finished-at="2016-11-10T20:16:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- linkTest -->
+      </class> <!-- day35.DB_DataDriventesting -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

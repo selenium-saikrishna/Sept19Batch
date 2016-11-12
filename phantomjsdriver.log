@@ -1,0 +1,227 @@
+[INFO  - 2016-10-04T04:50:12.555Z] GhostDriver - Main - running on port 37832
+[INFO  - 2016-10-04T04:50:13.341Z] Session [0955ab90-89ee-11e6-98f1-0fa63a79c05f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-10-04T04:50:13.342Z] Session [0955ab90-89ee-11e6-98f1-0fa63a79c05f] - page.customHeaders:  - {}
+[INFO  - 2016-10-04T04:50:13.343Z] Session [0955ab90-89ee-11e6-98f1-0fa63a79c05f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-10-04T04:50:13.343Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0955ab90-89ee-11e6-98f1-0fa63a79c05f
+[INFO  - 2016-10-04T04:55:12.536Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-04T05:00:12.567Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-04T05:05:12.567Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-04T05:10:12.599Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2016-10-04T05:10:26.193Z] Session [0955ab90-89ee-11e6-98f1-0fa63a79c05f] - page.onError - msg: TypeError: undefined is not an object (evaluating 'c.length')
+[ERROR - 2016-10-04T05:10:26.194Z] Session [0955ab90-89ee-11e6-98f1-0fa63a79c05f] - page.onError - stack:
+  addElement (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:70)
+  g (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:203)
+  (anonymous function) (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:204)
+  appendChild (:0)
+  y (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:200)
+  write (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:204)
+  show (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:201)
+  (anonymous function) (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:18)
+  emit (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  fa (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:135)
+  emit (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  commit (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:107)
+  set (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:106)
+  U (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:112)
+  (anonymous function) (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:18)
+  draw (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:142)
+  (anonymous function) (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:218)
+  emit (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  fa (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:135)
+  emit (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  commit (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:107)
+  set (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:106)
+  U (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:112)
+  (anonymous function) (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:18)
+  draw (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:142)
+  (anonymous function) (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:220)
+  emit (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  commit (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:107)
+  set (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:106)
+  U (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:112)
+  (anonymous function) (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:18)
+  draw (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:142)
+  G (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:220)
+  (anonymous function) (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:176)
+  (anonymous function) (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:158)
+  A (https://s2.adform.net/stoat/583/s2.adform.net/bootstrap.js:1)
+  p (https://s2.adform.net/stoat/583/s2.adform.net/bootstrap.js:1)
+  factory (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:157)
+  x (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:176)
+  t (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:177)
+  cbuild (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:178)
+  B (https://s2.adform.net/stoat/583/s2.adform.net/bootstrap.js:17)
+  A (https://s2.adform.net/stoat/583/s2.adform.net/bootstrap.js:1)
+  p (https://s2.adform.net/stoat/583/s2.adform.net/bootstrap.js:1)
+  H (https://s2.adform.net/stoat/583/s2.adform.net/bootstrap.js:1)
+  (anonymous function) (https://s2.adform.net/stoat/583/s2.adform.net/load/v/0.0.98/e/9YEJgQ/i/8IfwAAAAIAA/r:AdConstructor:types/SingleExpanding:211)
+[INFO  - 2016-10-04T05:15:12.601Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-04T05:20:12.600Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-04T05:25:12.632Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T05:32:29.821Z] GhostDriver - Main - running on port 22048
+[INFO  - 2016-10-25T05:33:08.438Z] GhostDriver - Main - running on port 27481
+[INFO  - 2016-10-25T05:33:09.292Z] Session [83655980-9a74-11e6-a179-a746c5cf82da] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-10-25T05:33:09.292Z] Session [83655980-9a74-11e6-a179-a746c5cf82da] - page.customHeaders:  - {}
+[INFO  - 2016-10-25T05:33:09.293Z] Session [83655980-9a74-11e6-a179-a746c5cf82da] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-10-25T05:33:09.294Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 83655980-9a74-11e6-a179-a746c5cf82da
+[INFO  - 2016-10-25T05:38:08.419Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T05:43:08.450Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T05:48:08.450Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T05:53:08.490Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2016-10-25T05:53:27.187Z] Session [83655980-9a74-11e6-a179-a746c5cf82da] - page.onError - msg: TypeError: undefined is not an object (evaluating 'c.length')
+[ERROR - 2016-10-25T05:53:27.188Z] Session [83655980-9a74-11e6-a179-a746c5cf82da] - page.onError - stack:
+  addElement (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:70)
+  g (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:203)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:204)
+  appendChild (:0)
+  y (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:200)
+  write (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:204)
+  show (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:201)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:18)
+  emit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  fa (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:135)
+  emit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  commit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:107)
+  set (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:106)
+  U (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:112)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:18)
+  draw (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:142)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:218)
+  emit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  fa (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:135)
+  emit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  commit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:107)
+  set (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:106)
+  U (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:112)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:18)
+  draw (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:142)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:220)
+  emit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  commit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:107)
+  set (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:106)
+  U (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:112)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:18)
+  draw (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:142)
+  G (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:220)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:176)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:158)
+  A (https://s2.adform.net/stoat/584/s2.adform.net/bootstrap.js:1)
+  p (https://s2.adform.net/stoat/584/s2.adform.net/bootstrap.js:1)
+  factory (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:157)
+  x (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:176)
+  t (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:177)
+  cbuild (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:178)
+  B (https://s2.adform.net/stoat/584/s2.adform.net/bootstrap.js:16)
+  A (https://s2.adform.net/stoat/584/s2.adform.net/bootstrap.js:1)
+  p (https://s2.adform.net/stoat/584/s2.adform.net/bootstrap.js:1)
+  H (https://s2.adform.net/stoat/584/s2.adform.net/bootstrap.js:1)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:211)
+[INFO  - 2016-10-25T05:58:08.490Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T06:03:08.526Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T06:08:08.527Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T06:13:08.558Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[ERROR - 2016-10-25T06:13:52.973Z] Session [83655980-9a74-11e6-a179-a746c5cf82da] - page.onError - msg: TypeError: undefined is not an object (evaluating 'c.length')
+[ERROR - 2016-10-25T06:13:52.974Z] Session [83655980-9a74-11e6-a179-a746c5cf82da] - page.onError - stack:
+  addElement (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:70)
+  g (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:203)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:204)
+  appendChild (:0)
+  y (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:200)
+  write (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:204)
+  show (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:201)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:18)
+  emit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  fa (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:135)
+  emit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  commit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:107)
+  set (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:106)
+  U (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:112)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:18)
+  draw (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:142)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:218)
+  emit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  fa (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:135)
+  emit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  commit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:107)
+  set (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:106)
+  U (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:112)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:18)
+  draw (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:142)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:220)
+  emit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:2)
+  commit (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:107)
+  set (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:106)
+  U (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:112)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:18)
+  draw (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:142)
+  G (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:220)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:176)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:158)
+  A (https://s2.adform.net/stoat/584/s2.adform.net/bootstrap.js:1)
+  p (https://s2.adform.net/stoat/584/s2.adform.net/bootstrap.js:1)
+  factory (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:157)
+  x (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:176)
+  t (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:177)
+  cbuild (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:178)
+  B (https://s2.adform.net/stoat/584/s2.adform.net/bootstrap.js:16)
+  A (https://s2.adform.net/stoat/584/s2.adform.net/bootstrap.js:1)
+  p (https://s2.adform.net/stoat/584/s2.adform.net/bootstrap.js:1)
+  H (https://s2.adform.net/stoat/584/s2.adform.net/bootstrap.js:1)
+  (anonymous function) (https://s2.adform.net/stoat/584/s2.adform.net/load/v/0.0.99/e/9YEJgQ/i/8IP4AAAAIAA/r:AdConstructor:types/SingleExpanding:211)
+[INFO  - 2016-10-25T06:18:08.558Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T06:23:08.589Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T06:28:08.589Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T06:33:08.620Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T06:38:08.620Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T06:43:08.653Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T06:48:08.653Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T06:53:08.684Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T06:58:08.715Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T07:03:08.716Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T07:08:08.747Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T07:13:08.747Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T07:18:08.778Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T07:23:08.787Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T07:28:08.820Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-25T07:33:08.824Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T04:25:38.498Z] GhostDriver - Main - running on port 12575
+[INFO  - 2016-10-26T04:25:39.861Z] Session [4028f710-9b34-11e6-a8a3-531a531e9ae0] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-10-26T04:25:39.861Z] Session [4028f710-9b34-11e6-a8a3-531a531e9ae0] - page.customHeaders:  - {}
+[INFO  - 2016-10-26T04:25:39.862Z] Session [4028f710-9b34-11e6-a8a3-531a531e9ae0] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"windows-7-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-10-26T04:25:39.863Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4028f710-9b34-11e6-a8a3-531a531e9ae0
+[INFO  - 2016-10-26T04:30:38.488Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T04:35:38.487Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T04:40:38.489Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T04:45:38.521Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T04:50:38.521Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T04:55:38.531Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T05:00:38.531Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T05:05:38.562Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T05:10:38.562Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T05:15:38.568Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T05:20:38.604Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T05:25:38.612Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T05:30:38.613Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T05:35:38.614Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T05:40:38.645Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T05:45:38.654Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T05:50:38.655Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T05:55:38.693Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T06:00:38.693Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T06:05:38.701Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T06:10:38.702Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T06:15:38.734Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T06:20:38.734Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T06:25:38.740Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T06:30:38.740Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T06:35:38.772Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T06:40:38.778Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T06:45:38.777Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T06:50:38.808Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T06:55:38.813Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T07:00:38.815Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T07:05:38.821Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T07:10:38.856Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T07:15:38.862Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T07:20:38.863Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2016-10-26T07:25:38.863Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
