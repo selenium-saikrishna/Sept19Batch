@@ -25,12 +25,12 @@ public class DropdownTestingOnGrid {
 			cap.setBrowserName("firefox");
 			cap.setPlatform(Platform.WINDOWS);
 		}
-		else if(b.equals("chrome"))
+		/*else if(b.equals("safari"))
 		{
-			cap=DesiredCapabilities.chrome();
-			cap.setBrowserName("chrome");
-			cap.setPlatform(Platform.MAC);
-		}
+			cap=DesiredCapabilities.safari();
+			cap.setBrowserName("safari");
+			cap.setPlatform(Platform.WINDOWS);
+		}*/
 		RemoteWebDriver driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
 		
 		driver.get("http://newtours.demoaut.com");

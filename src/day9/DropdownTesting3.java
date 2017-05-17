@@ -13,10 +13,10 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 public class DropdownTesting3 {
 
 	public static void main(String[] args) {
-		/*System.setProperty("webdriver.chrome.driver","c:\\chromedriver.exe");
-		ChromeDriver driver=new ChromeDriver();*/
+		System.setProperty("webdriver.chrome.driver","c:\\chromedriver.exe");
+		ChromeDriver driver=new ChromeDriver();
 		//HtmlUnitDriver driver=new HtmlUnitDriver(BrowserVersion.CHROME);
-		FirefoxDriver driver=new FirefoxDriver();
+		//FirefoxDriver driver=new FirefoxDriver();
 		driver.get("http://newtours.demoaut.com");
 		driver.findElement(By.linkText("REGISTER")).click();
 		WebElement drop=driver.findElement(By.name("country"));

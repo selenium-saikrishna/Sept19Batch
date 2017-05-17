@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Grid Demo]" parallel="tests">
+  <parameter name="browser" value="safari"/>
+  <test name="On Safari(failed)" parallel="tests">
+    <parameter name="browser" value="safari"/>
+    <classes>
+      <class name="day36.DropdownOnGrid">
+        <methods>
+          <include name="dropdownTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day36.DropdownOnGrid -->
+    </classes>
+  </test> <!-- On Safari(failed) -->
+  <test name="On Chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="day36.DropdownOnGrid">
+        <methods>
+          <include name="dropdownTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day36.DropdownOnGrid -->
+    </classes>
+  </test> <!-- On Chrome(failed) -->
+  <test name="On Firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="day36.DropdownOnGrid">
+        <methods>
+          <include name="dropdownTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day36.DropdownOnGrid -->
+    </classes>
+  </test> <!-- On Firefox(failed) -->
+</suite> <!-- Failed suite [Grid Demo] -->

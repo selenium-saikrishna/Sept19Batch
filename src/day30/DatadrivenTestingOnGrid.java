@@ -37,12 +37,7 @@ public class DatadrivenTestingOnGrid {
 			cap.setBrowserName("chrome");
 			cap.setPlatform(Platform.MAC);
 		}
-		else if(b.equals("safari"))
-		{
-			cap=DesiredCapabilities.safari();
-			cap.setBrowserName("safari");
-			cap.setPlatform(Platform.MAC);
-		}
+		
 		RemoteWebDriver driver=new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),cap);
 		
 		driver.get("http://newtours.demoaut.com");

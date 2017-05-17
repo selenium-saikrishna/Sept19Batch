@@ -1,35 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [NewtOurs End to end Testing]" parallel="tests">
-  <parameter name="browser" value="safari"/>
-  <test name="On Firefox(failed)" parallel="tests">
-    <parameter name="browser" value="firefox"/>
+<suite name="Failed suite [NewtOurs End to end Testing]">
+  <test name="On Firefox(failed)">
     <classes>
-      <class name="day31.CloudTesting">
+      <class name="day26.testsuite.BookAFlight">
         <methods>
-          <include name="cloudTest" invocation-numbers="0"/>
+          <include name="bookaFlightTest"/>
         </methods>
-      </class> <!-- day31.CloudTesting -->
+      </class> <!-- day26.testsuite.BookAFlight -->
+      <class name="day26.testsuite.FlightConfirmation">
+        <methods>
+          <include name="flightConfirmTest"/>
+        </methods>
+      </class> <!-- day26.testsuite.FlightConfirmation -->
     </classes>
   </test> <!-- On Firefox(failed) -->
-  <test name="On Safari(failed)" parallel="tests">
-    <parameter name="browser" value="safari"/>
-    <classes>
-      <class name="day31.CloudTesting">
-        <methods>
-          <include name="cloudTest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- day31.CloudTesting -->
-    </classes>
-  </test> <!-- On Safari(failed) -->
-  <test name="On Chrome(failed)" parallel="tests">
-    <parameter name="browser" value="chrome"/>
-    <classes>
-      <class name="day31.CloudTesting">
-        <methods>
-          <include name="cloudTest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- day31.CloudTesting -->
-    </classes>
-  </test> <!-- On Chrome(failed) -->
 </suite> <!-- Failed suite [NewtOurs End to end Testing] -->

@@ -1,21 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34441" started-at="2016-11-11T04:16:02Z" finished-at="2016-11-11T04:16:36Z">
+  <suite name="NewtOurs End to end Testing" duration-ms="31338" started-at="2017-05-16T03:02:46Z" finished-at="2017-05-16T03:03:17Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34441" started-at="2016-11-11T04:16:02Z" finished-at="2016-11-11T04:16:36Z">
-      <class name="day35.DB_DataDriventesting">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:day35.DB_DataDriventesting@4a2a4591]" name="setUp" is-config="true" duration-ms="17911" started-at="2016-11-10T20:16:02Z" finished-at="2016-11-10T20:16:20Z">
+    <test name="On Firefox" duration-ms="31338" started-at="2017-05-16T03:02:46Z" finished-at="2017-05-16T03:03:17Z">
+      <class name="day26.testsuite.Login">
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:day26.testsuite.Login@608e14b7]" name="loginTest" duration-ms="24743" started-at="2017-05-15T20:02:46Z" finished-at="2017-05-15T20:03:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="linkTest()[pri:0, instance:day35.DB_DataDriventesting@4a2a4591]" name="linkTest" duration-ms="16425" started-at="2016-11-10T20:16:20Z" finished-at="2016-11-10T20:16:36Z">
+        </test-method> <!-- loginTest -->
+      </class> <!-- day26.testsuite.Login -->
+      <class name="day26.testsuite.BookAFlight">
+        <test-method status="PASS" signature="bookaFlightTest()[pri:0, instance:day26.testsuite.BookAFlight@64045f57]" name="bookaFlightTest" duration-ms="1969" started-at="2017-05-15T20:03:15Z" finished-at="2017-05-15T20:03:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- linkTest -->
-      </class> <!-- day35.DB_DataDriventesting -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- bookaFlightTest -->
+      </class> <!-- day26.testsuite.BookAFlight -->
+      <class name="day26.testsuite.FlightConfirmation">
+        <test-method status="PASS" signature="flightConfirmTest()[pri:0, instance:day26.testsuite.FlightConfirmation@5b0f7c0d]" name="flightConfirmTest" duration-ms="127" started-at="2017-05-15T20:03:17Z" finished-at="2017-05-15T20:03:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmTest -->
+      </class> <!-- day26.testsuite.FlightConfirmation -->
+      <class name="day26.testsuite.FindAFlight">
+        <test-method status="PASS" signature="findFlightTest()[pri:0, instance:day26.testsuite.FindAFlight@11d13e]" name="findFlightTest" duration-ms="1794" started-at="2017-05-15T20:03:11Z" finished-at="2017-05-15T20:03:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findFlightTest -->
+      </class> <!-- day26.testsuite.FindAFlight -->
+      <class name="day26.testsuite.SelectAFlight">
+        <test-method status="PASS" signature="selectFlightTest()[pri:0, instance:day26.testsuite.SelectAFlight@11c03d7b]" name="selectFlightTest" duration-ms="2582" started-at="2017-05-15T20:03:12Z" finished-at="2017-05-15T20:03:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectFlightTest -->
+      </class> <!-- day26.testsuite.SelectAFlight -->
+    </test> <!-- On Firefox -->
+  </suite> <!-- NewtOurs End to end Testing -->
 </testng-results>

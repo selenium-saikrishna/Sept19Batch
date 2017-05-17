@@ -2,19 +2,14 @@
   <test name="On Firefox">
 	<parameter name="browser" value="firefox"/>
     <classes>
-		<class name="day31.CloudTesting"/>
+		<class name="day29.DropdownTestingOnGrid"/>
 	</classes>
     </test> 
-	<test name="On Chrome">
-	 <parameter name="browser" value="chrome"/>
-    <classes>
-		<class name="day31.CloudTesting"/>
-	</classes>
-    </test>
-    <test name="On Safari">
+	!--<test name="On Chrome">
 	 <parameter name="browser" value="safari"/>
     <classes>
-		<class name="day31.CloudTesting"/>
+		<class name="day29.DropdownTestingOnGrid"/>
 	</classes>
-    </test>
+    </test>--!
+    
 </suite> 

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Grid Demo"   parallel="tests">
+  <test name="On Chrome">
+   <parameter name="browser"  value="chrome"/>
+    <classes>
+         <class name="day36.DropdownOnGrid"/>
+    </classes>
+  </test> 
+   <test name="On Firefox">
+    <parameter name="browser"  value="firefox"/>
+    <classes>
+         <class name="day36.DropdownOnGrid"/>
+    </classes>
+  </test>
+   <test name="On Safari">
+    <parameter name="browser"  value="safari"/>
+    <classes>
+         <class name="day36.DropdownOnGrid"/>
+    </classes>
+  </test>
+</suite> 

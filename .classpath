@@ -26,5 +26,6 @@
 	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/mockito-all-1.10.19.jar"/>
 	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/mysql-connector-java-5.1.26-bin.jar"/>
+	<classpathentry kind="lib" path="E:/Sep19bacth/Selenium/lib/extentreports-2.031.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
